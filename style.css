@@ -1,0 +1,189 @@
+#container{
+    background-color: black;
+}
+#heroSection{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/desert.jpg");
+    width:50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20%;
+    margin-left:4%;
+}
+#heroNav{
+    background-color: azure;
+    height: auto;
+    display:flex;
+    border-radius: 20px;
+}
+#ul{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+    padding-right: 200px;
+}
+#heroNavButton{
+    background-color: orange;
+    color: rgb(9, 81, 81);
+    padding: 10px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+#herologo{
+    width:6rem;
+}
+.herotext{
+    color:rgb(252, 253, 253);
+}
+.heroheading{
+ font-size: 5rem;
+}
+.heroparagraph{
+    font-size: 2rem;
+}
+.mainBody{
+    background-color: aliceblue;
+}
+.heroRockyImage{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/rockyisland.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.heroHatImage{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/beachhats.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.heroHistiricalImage{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/historical\ grounds.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.places{
+    display :flex;
+    gap:2%
+}
+.directions{
+    display:flex;
+}
+.direction{
+    display:flex;
+}
+.countryButtons{
+    display:flex;
+}
+.heroSection{
+    display:flex;
+}
+.North{
+    display: flex;
+    flex-direction: column;
+}
+.HeroSouth{
+    display: flex;
+    flex-direction: column;
+}
+.HeroFrance{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Florence.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.HeroItaly{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Venice.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.HeroMiddle{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/PortoCarvo.jpeg");
+    width:20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.HeroMilan{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/milan.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.HeroRome{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Rome.jpeg");
+    width:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.clientsreview{
+    display:flex;
+}
+.Directions{
+    display: flex;
+}
+.clientstalks{
+    display:flex;
+}
+.exploreFlorence{
+    display: flex;
+}
+.herroExploreFlorence{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Florence.jpeg");
+    width:20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+}
+.Pricing{
+    display:flex;
+    flex-direction: column;
+}
