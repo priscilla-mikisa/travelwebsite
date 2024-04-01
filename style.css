@@ -303,7 +303,7 @@
     background-color: aliceblue;
     color: black;
     padding:10%;
-    padding-rght:10% ;
+    padding-right:10% ;
 }
 .herroExploreFlorence{
     background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Florence.jpeg");
@@ -319,4 +319,300 @@
 .Pricing{
     display:flex;
     flex-direction: column;
+}
+@media screen and (min-width:280px)and (max-width:1000px){
+    #container{
+        background-color: black;
+        width: 1rem;
+    }
+    #heroSection{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/desert.jpg");
+        width:20rem;
+        height:auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: black;
+        padding: 7%;
+        margin-left:8%;
+    } 
+    #heroNav{
+        background-color: azure;
+        height: auto;
+        width:50%;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px;
+        margin-right: 3%;
+        margin-left: 18%;
+    }
+    #ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5%;
+        padding-right: 100px; 
+        margin-left:10% ;   
+    }
+    #heroNavButton{
+        background-color: orange;
+        color: rgb(9, 81, 81);
+        padding: 7px;
+        width: 300%;
+        height: auto;
+        margin: 60%;
+        margin-left: 300%;
+        border-radius: 50px;
+        margin-bottom: 5%;
+        font-size: 0.5rem;
+    }
+    .heroheading{
+        font-size: 3rem;
+       }
+       .heroparagraph{
+        font-size: 1rem;
+    }
+    #dive{
+        font-size: 1rem;
+        font-family: sans-serif;
+    }
+    .divewords{
+        font-size: 0.5rem;
+        font-family: sans-serif;
+    }
+    .places{
+        display :flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap:1%
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    .directions{
+        display:flex;
+        margin-left: 15%;
+        gap:5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .icons{
+        width:5%;
+        height:auto;
+    }
+    .Unique{
+        margin-left: 0;
+        font-family:serif;
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .iconss{
+        width:5%;
+        height: auto;
+    }
+    .direction{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap:2rem;
+    }
+    .iconssconne{
+        display: none;
+       }
+       .top{
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1.4rem;
+    }
+    .countryButtons{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap:1%;
+        margin-bottom: 2%;
+    }
+    .heroSection{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-right: 1%;
+    }
+    .North{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .HeroSouth{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .directionss{
+        margin-left: 20%;
+    }
+    .HeroFrance{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Florence.jpeg");
+        width:5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: aliceblue;
+        padding: 70px;
+    }
+    .HeroItaly{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Venice.jpeg");
+        width:5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: aliceblue;
+        padding: 70px;
+    }
+    .HeroMiddle{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/PortoCarvo.jpeg");
+        width:5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color:aliceblue;
+        padding: 70px;
+    }
+    .HeroMilan{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/milan.jpeg");
+        width:5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color:aliceblue;
+        padding: 70px;
+    }
+    .HeroRome{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Rome.jpeg");
+        width:5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: aliceblue;
+        padding: 70px;
+    }
+    .clientsreview{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    .clientsHeading{
+        font-size:1.4rem ;
+    }
+    .icon{
+        width:5% ;
+        height: auto;
+    }
+    .clientstalks{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    .travel{
+        width: 12rem;
+        height: auto;
+    }
+    .lasttraveller{
+        width: 25%;
+    }
+    .blog{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .blogg{
+        margin-bottom: 5%;
+    }
+    .exploreFlorence{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap:10%;
+    }
+    .iconz{
+        width:5%;
+        height: auto;
+        float: right;
+        margin-left: 10%;
+        
+    }
+    .herroExploreFlorence{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Florence.jpeg");
+        width:20rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color:aliceblue;
+        padding-top: 300px;
+        padding-left: 5%;
+    }
+    .footer{
+        background-color: orange;
+        color: aliceblue;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 15%;
+        padding: 1%;
+        gap:5%;
+        width: 40%;
+        height: auto;
+        padding-right:1% ;
+        margin-right: 10%;
+    }
+    #heroNavButtonz{
+        background-color: orange;
+        color: rgb(9, 81, 81);
+        padding: 7px;
+        width: 70%;
+        height: auto;
+        border-radius: 50px;
+        margin-bottom: 5%;
+        font-size: 0.5rem;
+    }
+    .form{
+        width:20%;
+        background-color: aliceblue;
+        color: black;
+        padding:10%;
+        padding-right:10% ;
+    }
+    .herroExploreFlorence{
+        background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/Florence.jpeg");
+        width:20rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color:aliceblue;
+        padding-top: 100px;
+        padding-left: 2%;
+    }
+    .Pricing{
+        display:flex;
+        flex-direction: column;
+}
+.h11{
+    font-size: 1.4rem;
+}
 }
